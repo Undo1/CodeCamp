@@ -1,0 +1,5 @@
+#include "Pods-Demo1-RMStore.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Build" "${PODS_ROOT}/Headers/Build/RMStore" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/RMStore"
+OTHER_LDFLAGS = ${PODS_DEMO__RMSTORE_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
